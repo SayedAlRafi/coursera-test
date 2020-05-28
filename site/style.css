@@ -1,0 +1,72 @@
+
+* {
+	box-sizing: border-box;
+}
+body{
+	margin: 10px;
+}
+h1 {
+	text-align: center;
+	font-family: 'Poiret One', cursive;
+	font-size: 165%
+}
+
+section {
+	font-family: 'Poiret One', cursive;
+	font-size: 125%;
+	border: 1px solid black;
+	width: 75px;
+	text-align: center;
+	float: right;
+}
+p {
+	font-family: 'Poiret One', cursive;
+	padding: 8px;
+	clear: right;
+	margin: 0px;
+}
+
+.bg {
+	background-color: grey;
+	border: 1px solid black;
+	margin: 10px;
+}
+
+#chicken {
+	background-color: pink;
+}
+#beef {
+	background-color: red;
+	color: white;
+}
+#sushi {
+	background-color: yellow;
+}
+
+
+@media (min-width: 992px) {
+  .col-lg {
+    float: left;
+    width: 33.33%;
+  }
+ }
+
+
+@media (min-width: 768px) and (max-width: 991px) {
+  .col-md-1, .col-md{
+    float: left;
+  }
+  .col-md{
+    width: 50%;
+  }
+  .col-md-1{
+  	width: 100%;
+  }
+}
+
+@media (max-width: 767) {
+	.col-sm {
+		float: left;
+		width: 100%;
+	}
+}
